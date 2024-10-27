@@ -1,0 +1,385 @@
+.navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif; /* Change font */
+    font-size: 16px; /* Adjust the font size */
+    font-weight: 700; /* Adjust the font weight (normal: 400, bold: 700) */
+    color: white; /* Change the text color */
+}
+
+
+.custom-navbar {
+    background-color: #222639f2
+}
+
+.nav-link:hover {
+    color: #f39c12 !important; /* A highlight color */
+}
+
+
+body{
+    background-color: #3a465f /* Darker background */
+}
+
+
+
+
+.custom-text-color{
+    color: #ebdec2; 
+}
+
+
+.heading-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.video_container {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+
+.card {
+    height: 400px; /* Set a fixed height for the card */
+    border: none;
+    border-radius: 15px;
+}
+
+.card1{
+    height: 400px; /* Set a fixed height for the card */
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    height: 250px; /* Set a fixed height */
+    object-fit: cover; /* Maintains the aspect ratio and covers the area */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    height: 100%; /* Ensure the card body takes the full height */
+}
+
+.cta-section {
+    background-image: url('images/wow122.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0; /* Increase vertical padding */
+    min-height: 700px; /* Set minimum height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+
+}
+
+.cta-content {
+    max-width: 600px; /* Set a max width for the content */
+    margin: 0 auto; /* Center the content */
+    text-align: center; /* Center align text */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px; /* Inner padding */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 80px; /* Add margin to separate from the heading */
+}
+
+.cta-title {
+    font-size: 2rem; /* Adjust size */
+    margin-bottom: 15px; /* Spacing */
+}
+
+.cta-description {
+    font-size: 1.2rem; /* Adjust size */
+    margin-bottom: 20px; /* Spacing */
+}
+
+.cta-button {
+    padding: 10px 20px; /* Button padding */
+    font-size: 1.2rem; /* Button text size */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.cta-button:hover {
+    background-color: #007bff; /* Change on hover */
+}
+
+
+.border-top-only {
+    border-top: 2px solid #fff; /* Change the color and width as needed */
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.cta-section h1 {
+    border-bottom: 2px solid #fff; /* Change color and thickness as needed */
+    display: inline-block; /* Ensures the border only applies to the text width */
+}
+
+.background-section{
+    background-image: url('images/wow115.avif'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.card-hover {
+    transform: scale(1.05); /* Scale up the card slightly */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Enhance shadow on hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for smooth animation */
+}
+
+.card-title {
+    font-family: 'Cursed' !important; 
+    color: gold; 
+}
+
+
+/* Form, Table background(tasks page) */
+
+.background-container{
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px; /* Inner padding */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 80px; /* Add margin to separate from the heading */
+}
+
+.table-container {
+    max-height: 400px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    margin: 0 auto; /* Center the container */
+}
+
+.tasks-page{
+    background-image: url('images/bolvar.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh; /* Use min-height to ensure it covers full height */
+}
+
+
+.about-page{
+    background-image: url('images/wow1233.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh; /* Use min-height to ensure it covers full height */
+}
+
+.background-container1 {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Adding shadow for depth */
+    margin: 0 auto; /* Center horizontally */
+    height: 100%; /* Ensure it takes full height of the parent */
+}
+
+
+.custom-card {
+    min-height: 500px; /* Adjust as necessary */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Adding shadow for depth */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.custom-card:hover {
+    transform: scale(1.05); /* Scale up slightly on hover */
+}
+
+.custom-color{
+    background-color: rgba(94, 100, 162, 0.7);
+}
+
+.custom-background-card {
+    position: relative;
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.custom-background-card:hover {
+    transform: scale(1.03); /* Scale up slightly on hover */
+}
+
+
+.background-container2 {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    background-image: url('images/sylvanas.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Adding shadow for depth */
+    margin: 0 auto; /* Center horizontally */
+    height: 100%; /* Ensure it takes full height of the parent */
+}
+
+.background-container3 {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    background-image: url('images/xalatath.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Adding shadow for depth */
+    margin: 0 auto; /* Center horizontally */
+    height: 100%; /* Ensure it takes full height of the parent */
+}
+
+
+.background-container4{
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 8px; /* Rounded corners */
+}
+
+
+.social-icons {
+    margin: 20px 0; /* Adds space above and below the icons */
+}
+
+.social-icons a {
+    font-size: 1.5em; /* Adjusts the size of the icons */
+}
+
+h1{
+    font-size: 40px !important; /* Adjust the font size */
+    font-weight: 700 !important;  /* Adjust the font weight (normal: 400, bold: 700) */
+    color: white !important;  /* Change the text color */
+}
+
+.contact-page{
+    background-image: url('images/bg_faction_flipped.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh; /* Use min-height to ensure it covers full height */
+}
+
+
+.carousel-control-prev-icon {
+    background-image: url('images/carousel-left.png');
+    background-size: contain;
+
+}
+
+.carousel-control-next-icon {
+    background-image: url('images/carousel-right.png');
+    background-size: contain;
+
+}
+
+
+.horde-faction-background {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    background-image: url('images/horde.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Adding shadow for depth */
+    margin: 0 auto; /* Center horizontally */
+    height: 100%; /* Ensure it takes full height of the parent */
+}
+
+.alliance-faction-background {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    background-image: url('images/alliance.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Adding shadow for depth */
+    margin: 0 auto; /* Center horizontally */
+    height: 100%; /* Ensure it takes full height of the parent */
+}
+
+
+.custom-card1 {
+    height: 350px; /* Adjust as necessary */
+    background-image: url('images/backgroundCardHorde.jpg');
+    background-size: cover;
+    background-position: center; /* Centers the background image */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Adding shadow for depth */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+
+.custom-card1 img {
+    width: 100%; /* Makes the image take full width of the card */
+    height: 100%; /* Makes the image take the full height of the card */
+    object-fit: contain; /* Ensures the entire image fits within the area */
+    border-radius: 10px; /* Optional: Adds rounded corners to the image */
+}
+
+.custom-card1:hover{
+    transform: scale(1.03); /* Scale up slightly on hover */
+}
+
+
+.horde-icon {
+    padding-top: 15px;
+    display: block; /* Center the icon */
+    margin: 0 auto; /* Center horizontally and add margin below */
+    width: 200px; /* Adjust the size as needed */
+}
+
+.custom-text-color {
+    color: rgb(255, 191, 0)!important;
+    font-weight: 700; /* Adjust the font weight (normal: 400, bold: 700) */
+}
+
+
+.explore-page{
+    background-image: url('images/sylvanas.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: repeat; 
+    min-height: 100vh; /* Use min-height to ensure it covers full height */
+}
+
+.footer{
+    background-image: url('images/BGTexture_Seamless.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.custom-text-width {
+    max-width: 900px; /* Adjust this value to your preference */
+    margin: 0 auto!important; /* Center the paragraph */
+    line-height: 1.5; /* Optional: Improves readability */
+}
+
+.carousel-inner .carousel-item img {
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+    object-fit: cover;
+}
+
+.custom-border-card{
+    border: 3px solid #0091ff;
+}
+
+.custom-border-card-horde{
+    border: 3px solid #d63336; 
+}
+
+.divider-container {
+    display: flex;
+    justify-content: center;
+}
+
+.divider-icon {
+    padding: 20px;
+    width: 100%; /* Adjust icon size as needed */
+    opacity: 0.8; /* Optional: Adds a slight transparency */
+}
